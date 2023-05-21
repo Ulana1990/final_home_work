@@ -1,0 +1,181 @@
+#title {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1.5fr 1.5fr;
+  height: 30rem;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+li 
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+.Rent {
+  grid-column: 2;
+  align-self: center;
+}
+.container-fluid {
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   justify-content: space-around;
+
+}
+.nav-link {
+  color: #fff;
+  position: relative;
+  left: 10rem;
+  top: 1.5rem;
+}
+.img-phone {
+  margin-bottom: 8%;
+  margin-left:97% ;
+}
+.Download-title {
+ display: flex;
+ align-items: center;
+ text-align: center;
+ position: relative;
+ left: 22rem;
+ bottom: 6rem;   
+}
+.btn {
+  position: relative;
+  top: 50%;
+  background-image: -webkit-linear-gradient(top, #3498db, #dda15e);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 8px 18px 8px 18px;
+}
+#features {
+  display: inline-flex;
+  gap: 4rem;
+  text-align: center;
+  position: relative;
+  left: 23%;
+  margin: 5rem;
+}
+#feedbacks {
+  display: flex;
+  background-color: #f0efef;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+}
+#partners {
+  display: flex;
+  justify-content: center;
+  background-color: #cad2c5;
+  align-items: center;
+}
+#pricing {
+  display: inline-flex;
+  gap: 4rem;
+  margin: 3rem;
+  align-items: center;
+  
+}
+.plan-title {
+background-color: #cad2c5;
+}
+.pricing-plan {
+  display: grid;
+  margin-top: 4rem;
+  height: 22rem;
+  width: 15rem;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid;
+  text-align: center;
+  
+}
+.plan-button {
+  background-image: -webkit-linear-gradient(top, #3498db, #dda15e);
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 4px 12px 4px 12px;
+  text-decoration: none;
+}
+#footer {
+  background-color: #adb5bd;
+  padding: 8px 5px 0px;
+}  
+.footer-rights {
+  margin: 5px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width:992px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    #title {
+  max-width: 992px;
+  flex-direction: column;
+  flex-grow: unset;
+  align-items: center;
+  height: 80vh;
+  width: 700vh;
+    }
+ 
+.container-fluid {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+  #features {
+  display: inline-flex;
+  flex-direction: column;
+
+  }
+ #partners {
+  display: flex;
+  flex-direction: row;
+}
+
+ #pricing{
+  display: flex;
+  flex-direction: column;
+  flex-grow: unset;
+  align-items: center;
+}
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
